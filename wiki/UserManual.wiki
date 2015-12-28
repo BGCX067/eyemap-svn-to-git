@@ -1,0 +1,8 @@
+Try our online system to get an initial experience of the user interface.
+
+= Trail list and Data list =
+
+Trial list contains all the trials in the experiment. You can select a trial by mouse click or up/down key. You can also mark a trial as valid or INVALID by pressing the delete key, or by selecting the menu item Edit->Mark Trial.
+     
+Trial list and Data list
+Data list contains event information of a trial. The contents will change when you are selecting between different views. As shown in the figure above, labels with even numbers indicate left eye events and with odd numbers, right eye events. All the events are displayed in temporal order. When the user selects an item in the data list, related events will be highlighted in the current view. You can select multiple events in editing mode.

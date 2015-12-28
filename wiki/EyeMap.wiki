@@ -1,0 +1,27 @@
+#summary EyeMap is a visualization and analysis tool for eye movement data from reading experiments.
+#labels Phase-Requirements,Phase-Support
+
+= Welcome to the EyeMap =
+
+EyeMap is a visualization and analysis tool for eye movement data from reading experiments. It supports Unicode, proportional and non-proportional fonts, spaced and unspaced scripts. Consequently it is well-suited for research on a wide range of writing systems. To date it has been used with English, German, Thai, Korean, and Chinese.
+
+
+= Installation =
+
+Follow the instructions below to install and play the EyeMap:
+    # Install AIR environment. Make sure you have installed the latest Adobe AIR 2 Runtime (>=release 051110), if you have already installed it, skip this step.
+    # Download the latest EyeMap.air.
+    # Double click EyeMap.air to install it.
+    # Copy or move the “C:\Program Files\EyeMap\bin\EDF-ASC2XML.cmd” file to any place you want.
+    # Create your own “config.xml”, “export.xml” and “text.html”, and put them with your EDF file in the same folder.
+    # Drag the EDF or ASC data file (“config.xml” must be in the same folder) to “EDF-ASC2XML.cmd” icon to convert it to an XML file.
+    # Open the XML inside EyeMap.
+
+= Data Edit and Analysis =
+    # Open the converted XML file in EyeMap (make sure the XML file and “text.html” file are placed in the same folder).
+    # Press “Del” key in the Trial List View to mark invalid trials. Invalid trials will be skipped during export.
+    # Press   (Edit) button on the top right corner to move or align fixations in Fixation View.
+    # Select eyes by pressing the   (Right eye) and/or   (Left eye) button on the menu bar to hide or show the corresponding eye. The hidden eye will not be exported.
+    # If you want a header row in the exported csv file, select “Analysis -> Export Header”.
+    # Select “Analysis -> Export Variables” to export all the variables for the selected eye based on the setup in “export.xml” (make sure XML file and “export.xml” file are placed in the same folder).
+    # Users can use “C:\Program Files\EyeMap\bin\merge.cmd” to merge several exported csv data files which do not contain a header row.
